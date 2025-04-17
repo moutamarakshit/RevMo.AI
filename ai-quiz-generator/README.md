@@ -34,8 +34,8 @@ cd RevMo.AI
 ### 2. Setup & run the backend
 cd ai-quiz-backend
 cp .env.example .env
-# Edit .env and set your OPENAI_API_KEY:
-# OPENAI_API_KEY=sk-or-v1-YOUR_NEW_KEY
+#### Edit .env and set your OPENAI_API_KEY:
+#### OPENAI_API_KEY=sk-or-v1-YOUR_NEW_KEY
 npm install
 npm run dev
 
