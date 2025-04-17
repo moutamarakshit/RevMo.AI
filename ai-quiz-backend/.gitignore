@@ -1,1 +1,3 @@
 OPENAI_API_KEY=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
+node_modules/
+.env/
