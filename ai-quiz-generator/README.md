@@ -1,12 +1,49 @@
-# React + Vite
+# RevMo.AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**RevMo.AI – Memorize Faster, Revise Smarter**  
+An AI‑powered quiz generator that turns any paragraph into MCQs, fill‑in‑the‑blanks, and short questions to help you study and retain information more effectively.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Generate MCQs**: Multiple choice questions with correct answers.  
+- **Fill‑in‑the‑Blanks**: Cloze‑style questions for active recall.  
+- **Short Answer**: Open‑ended questions to test deeper understanding.  
+- **Easy Toggle**: Select one or more question types with a single click.  
+- **Live Preview**: See results as soon as the AI responds.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite  
+- **Backend**: Node.js + Express  
+- **AI Engine**: OpenRouter / OpenAI GPT‑3.5‑Turbo  
+- **Styling**: CSS Modules  
+- **Environment**: dotenv, CORS
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/moutamarakshit/RevMo.AI.git
+cd RevMo.AI
+
+### 2. Setup & run the backend
+- ** cd ai-quiz-backend
+- ** cp .env.example .env
+# Edit .env and set your OPENAI_API_KEY:
+# OPENAI_API_KEY=sk-or-v1-YOUR_NEW_KEY
+- **npm install
+- **npm run dev
+- **Backend will be running at http://localhost:5000.
+
+### 3. Setup & run the frontend
+cd ../ai-quiz-generator
+npm install
+npm run dev
+Open your browser at http://localhost:5173.
+
