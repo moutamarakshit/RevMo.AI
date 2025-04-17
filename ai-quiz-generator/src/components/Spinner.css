@@ -1,0 +1,19 @@
+.robot-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+    animation: float 2s infinite ease-in-out;
+  }
+  
+  .robot {
+    font-size: 40px;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
