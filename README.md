@@ -29,6 +29,7 @@ An AI‑powered quiz generator that turns any paragraph into MCQs, fill‑in‑t
 
 ### 1. Clone the repo
 git clone https://github.com/moutamarakshit/RevMo.AI.git
+
 cd RevMo.AI
 
 ### 2. Setup & run the backend
