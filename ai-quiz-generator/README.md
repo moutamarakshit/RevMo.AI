@@ -28,22 +28,22 @@ An AI‑powered quiz generator that turns any paragraph into MCQs, fill‑in‑t
 ## 🔧 Getting Started
 
 ### 1. Clone the repo
-```bash
 git clone https://github.com/moutamarakshit/RevMo.AI.git
 cd RevMo.AI
 
 ### 2. Setup & run the backend
-- ** cd ai-quiz-backend
-- ** cp .env.example .env
+cd ai-quiz-backend
+cp .env.example .env
 # Edit .env and set your OPENAI_API_KEY:
 # OPENAI_API_KEY=sk-or-v1-YOUR_NEW_KEY
-- **npm install
-- **npm run dev
+npm install
+npm run dev
+
 - **Backend will be running at http://localhost:5000.
 
 ### 3. Setup & run the frontend
 cd ../ai-quiz-generator
 npm install
 npm run dev
-Open your browser at http://localhost:5173.
+- **Open your browser at http://localhost:5173.
 
