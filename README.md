@@ -1,7 +1,7 @@
 # RevMo.AI
 
 **RevMo.AI – Memorize Faster, Revise Smarter**  
-An AI‑powered quiz generator that turns any paragraph into MCQs, fill‑in‑the‑blanks, and short questions to help you study and retain information more effectively.
+RevMo.AI is an AI-powered quiz generator that transforms any paragraph into MCQs, fill-in-the-blanks, and short questions, helping you study and retain information more effectively. Whether you prefer a quiz or just a summary of a long text, RevMo.AI caters to your needs and generates it according to your preferences.
 
 ---
 
